@@ -8,6 +8,7 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.movies.Controller.LoginController;
 import com.example.movies.Controller.MovieController;
 import com.example.movies.R;
 
@@ -32,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
                 String password = passwordEditText.getText().toString();
 
                 // Pass control to the controller
-                MovieController.getInstance().handleLogin(LoginActivity.this, username, password);
+                LoginController.getInstance().handleLogin(LoginActivity.this, username, password);
             }
         });
     }

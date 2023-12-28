@@ -49,7 +49,6 @@ public class MovieModel {
         actionMovies.add("Inception");
         actionMovies.add("Mission: Impossible - Fallout");
         actionMovies.add("Avengers: Endgame");
-        // Add more action movies as needed
         return actionMovies;
     }
 
@@ -96,7 +95,6 @@ public class MovieModel {
         sciFiMovies.add("Star Trek: The Motion Picture");
         sciFiMovies.add("The Matrix Reloaded");
         sciFiMovies.add("Arrival");
-        // Add more sci-fi movies as needed
         return sciFiMovies;
     }
 
@@ -112,7 +110,6 @@ public class MovieModel {
         horrorMovies.add("Halloween");
         horrorMovies.add("The Exorcist");
         horrorMovies.add("Jaws");
-        // Add more horror movies as needed
         return horrorMovies;
     }
 
@@ -128,7 +125,6 @@ public class MovieModel {
         romanceMovies.add("Casablanca");
         romanceMovies.add("500 Days of Summer");
         romanceMovies.add("Romeo + Juliet");
-        // Add more romance movies as needed
         return romanceMovies;
     }
 
@@ -144,7 +140,6 @@ public class MovieModel {
         documentaryMovies.add("Man on Wire");
         documentaryMovies.add("Won't You Be My Neighbor?");
         documentaryMovies.add("RBG");
-        // Add more documentary movies as needed
         return documentaryMovies;
     }
 }

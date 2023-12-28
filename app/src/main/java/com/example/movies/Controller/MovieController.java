@@ -25,10 +25,6 @@ public class MovieController {
         }
         return instance;
     }
-    public void handleLogin(Context context, String username, String password) {
-        Intent intent = new Intent(context, GenreSelectionActivity.class);
-        context.startActivity(intent);
-    }
 
     public void handleGenreSelection(Context context, List<String> selectedGenres) {
         // Handle selected genres
